@@ -41,5 +41,5 @@ jobs:
       - name: Build React
         run: npm run build --prefix apps/client
 
-      - name: Build Server
-        run: npm run build --prefix apps/server
+      - name: Server Check
+        run: echo "Server has no build step (Express runtime app)"
