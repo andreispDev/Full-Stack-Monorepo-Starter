@@ -1,0 +1,12 @@
+node_modules
+dist
+build
+coverage
+
+apps/web/dist
+apps/client/dist
+apps/server/dist
+
+package-lock.json
+
+*.log

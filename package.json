@@ -1,0 +1,27 @@
+{
+  "name": "mono-repo",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "web": "npm run dev --prefix apps/web",
+    "client": "npm run dev --prefix apps/client",
+    "server": "npm run dev --prefix apps/server",
+    "dev": "concurrently \"npm run web\" \"npm run client\" \"npm run server\"",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "concurrently": "^10.0.3",
+    "prettier": "^3.8.3"
+  }
+}

@@ -1,0 +1,35 @@
+# Dependencies
+node_modules
+
+# Environment
+.env
+.env.local
+.env.production
+.env.development
+
+# Logs
+logs
+*.log
+
+# Build
+dist
+build
+coverage
+
+# Astro
+apps/web/dist
+
+# React
+apps/client/dist
+
+# Express
+apps/server/dist
+
+# VS Code
+.vscode
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
