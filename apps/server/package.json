@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js",
-    "build": "echo \"No build step required for this project\""
+    "dev": "nodemon src/index.js",
+    "build": "echo \"No build needed\"",
+    "start": "node src/index.js"
   },
   "keywords": [],
   "author": "",
